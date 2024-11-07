@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 166px;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.roboto-thin{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.box{
+    position: absolute;
+    top: 0px;
+    width: 500px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
