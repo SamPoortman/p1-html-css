@@ -1,0 +1,36 @@
+/* Styling for h1 */
+h1 {
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Styling for h2 */
+h2 {
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
+}
+
+/* Styling for h3 */
+h3 {
+    font-size: 16px;
+    color: teal;
+    font-weight: bold;
+}
+
+/* Styling for paragraph (p) */
+p {
+    color: #4D4D4D;
+}
+
+p:first-of-type {
+    font-weight: bold;
+}
+
+/* Styling for links (a) */
+a {
+    color: #8A2BE2;
+    text-decoration: none;
+}
