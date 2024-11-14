@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: ;
   }
   html {
     font-size: 62.5%;
@@ -44,4 +45,14 @@
     color: aliceblue;
     font-size: 600%;
     
+  }
+  footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #00a8c7;
+    color: #ffffff;
+    font-size: 1cm;
   }
