@@ -1,305 +1,86 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  font-size: 62.5%;
+}
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f4;
-}
-
-
-header {
-  background-color: #333;
-}
-
-nav .menu {
-  list-style-type: none;
-  display: flex;
-  justify-content: center; 
-  gap: 20px; 
-  padding: 10px;
-}
-
-.menu > li {
-  position: relative;
-}
-
-.menu a {
-  color: white;
-  text-decoration: none;
-  padding: 10px 15px; 
-  display: block;
-}
-
-.menu a:hover {
-  background-color: #555;
-}
-
-
-.submenu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #333;
-  list-style-type: none;
-  min-width: 150px;
-  z-index: 10;
-}
-
-.menu > li:hover .submenu {
-  display: block;
-}
-
-.submenu li {
-  width: 100%;
-}
-
-.submenu a {
-  padding: 10px;
-  color: #ddd;
-}
-
-.submenu a:hover {
-  background-color: #555;
-  color: white;
-}
-
-/* Hoofdinhoud */
-main {
-  padding: 20px;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center; 
-}
-
-main h1 {
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
-main p {
-  font-size: 1.1em;
-  margin-bottom: 20px;
-}
-
-/* Footer */
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-}
-
-header {
-  width: 100vw;
-  height: 33vh; 
-  background-image: url('jouw-afbeelding.jpg'); 
-  background-size: cover;
-  background-position: center;
+  font-family: "Goldman", cursive;
+  background-image: url(background.jpeg);
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+nav ul {
   display: flex;
   align-items: center;
-  justify-content: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
   color: white;
-}
-
-
-header h1,
-header p {
-}
-
-/* Navigatiemenu */
-nav ul.menu {
-  list-style-type: none;
-  display: flex;
-  gap: 1rem;
-}
-
-nav ul.menu li {
-  position: relative;
-}
-
-nav ul.menu li a {
   text-decoration: none;
-  color: #333;
 }
-
-nav ul.menu li ul.submenu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  list-style-type: none;
-  background-color: #FFF;
-  padding: 0.5rem;
+nav img {
+  width: 5vw;
 }
-
-nav ul.menu li:hover ul.submenu {
-  display: block;
+h1{
+  color: aliceblue;
+  font-size: 600%;
+  
 }
-
-
-img {
-  width: 50vw; 
-  max-width: 100%; 
-}
-
-/* Articles styling */
-article {
-  border: 3px solid #333; 
-  border-radius: 15px; 
-  padding: 1rem;
-  margin: 1rem;
-  border-left-width: 6px; 
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  min-height: 100vh; 
-  position: relative; 
-}
-
-
-header nav {
-  width: 100%;
-  position: fixed; 
-  top: 0;
-  left: 0;
-  background-color: #333;
-  color: #fff;
-  padding: 1rem;
-  z-index: 1000; 
-}
-
-nav ul.menu {
-  list-style-type: none;
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-}
-
-nav ul.menu li a {
-  text-decoration: none;
-  color: white;
-}
-
-main {
-  padding-top: 5rem; 
-}
-
-/* Center de titels */
-h1, h2, h3 {
-  text-align: center;
-  margin-top: 1rem;
-}
-
-footer {
-  position: absolute;
+footer{
+  position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #333;
-  color: #fff;
   text-align: center;
-  padding: 1rem;
+  padding: 20px 0;
+  background-color: #00a8c7;
+  color: #ffffff;
+  font-size: 1cm;
 }
-
-footer p {
-  margin: 0.5rem;
-}
-
-
-article {
-  display: inline-block;
-  width: 45%; 
-  margin: 1rem;
-  padding: 1rem;
-  float: left; 
-  border: 1px solid #ccc;
-}
-
-
-img {
-  width: 100%;
-}
-
-.container {
-  padding: 1rem;
-}
-
-nav ul.menu {
-  list-style-type: none;
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  background-color: #333;
-  padding: 1rem;
-}
-
-nav ul.menu li {
-  position: relative;
-}
-
-nav ul.menu li a {
-  text-decoration: none;
-  color: white;
-  padding: 0.5rem 1rem;
-}
-
-
-nav ul.menu li a.jaar2:hover {
-  background-color: white;
-  color: blue;
-}
-
-/* Jaar 2 submenu */
-nav ul.menu li ul.jaar2-submenu {
+.dropdown-content{
   display: none;
   position: absolute;
-  top: 100%; 
-  left: 0;
-  list-style-type: none;
   background-color: white;
-  padding: 0;
-  margin: 0;
-  border: 1px solid #ccc;
-  min-width: 150px; 
-  z-index: 1000;
+  min-width: 20vw;
+  z-index: 1;
+  
+  z-index: 1;
 }
 
-nav ul.menu li:hover ul.jaar2-submenu {
+.dropdown-content a{
+  padding: 0.8rem 1rem;
   display: block;
+  text-align: left;
+  color: #00a8c7;
 }
 
-/* Submenu-items styling */
-nav ul.menu li ul.jaar2-submenu li a {
-  color: #333;
-  padding: 0.5rem 1rem;
+.dropdown-content a:hover{
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropbtn{
+  color: #00a8c7;
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content{
   display: block;
-  white-space: nowrap;
-}
-
-nav ul.menu li ul.jaar2-submenu li a:hover {
-  background-color: #E9E9E9;
 }
