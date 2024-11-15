@@ -1,32 +1,32 @@
-/* Container styles */
 .container {
     display: flex;
     max-width: 1200px;
     justify-content: space-around;
     flex-wrap: wrap;
-    /* Reverse the order of items */
     flex-direction: row-reverse;
   }
   
-  /* Box styles */
-  .box {
+  .box1 {
+    background-color: blue;
     width: 200px;
     height: 200px;
   }
   
-  .blue {
-    background-color: blue;
-  }
-  
-  .black {
+  .box2 {
     background-color: black;
+    width: 200px;
+    height: 200px;
   }
   
-  .red {
+  .box3 {
     background-color: red;
+    width: 200px;
+    height: 200px;
   }
   
-  .green {
+  .box4 {
     background-color: green;
+    width: 200px;
+    height: 200px;
   }
   
