@@ -1,0 +1,32 @@
+/* Container styles */
+.container {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* Reverse the order of items */
+    flex-direction: row-reverse;
+  }
+  
+  /* Box styles */
+  .box {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .black {
+    background-color: black;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
